@@ -35,6 +35,12 @@ body {
 }
 .loading {
   display: none;
+  height: 30px;
+  /* border: 1px solid; */
+  margin-top: -50px;
+}
+.loading img {
+  height: 100%;
 }
 :disabled {
   opacity: 0.2 !important;
